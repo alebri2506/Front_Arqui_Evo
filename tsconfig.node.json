@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist", // Salida en dist
+    "rootDir": "./", // Asegúrate de que apunte a la carpeta correcta
+    "target": "ES2022",
+    "lib": ["ES2023"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": false,
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": [
+    "vite.config.ts",
+    "server/**/*.ts"
+  ]
+}
